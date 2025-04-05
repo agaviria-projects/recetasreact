@@ -1,18 +1,18 @@
-import "./../assets/estilos.css"
+import "./../assets/estilos.css";
 import React from 'react';
 
 export default function Header() {
   return (
-    <div className="p-5 bg-primary text-white text-center">
-      <h1>
-        <img 
-          className="logo" src="https://images.pond5.com/chef-logo-emblem-restaurant-or-illustration-172489935_iconl.jpeg" 
-          alt="Logo"
-        />
-        My First Bootstrap 5 Page
-      </h1>
-      <p>Resize this responsive page to see the effect!</p> 
+    <div className="header-personalizado">
+      <img 
+        className="logo" 
+        src="https://img.freepik.com/vector-premium/logotipo-chef-hombre-logotipo-restaurantes-logotipo-comida-rapida_663736-303.jpg?w=740" 
+        alt="Logo"
+      />
+      <h1>El Fogón Urbano</h1>
+      <p>El fuego lo encendemos nosotros, el hambre la traes vos</p> 
     </div>
   );
 }
+
 

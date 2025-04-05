@@ -1,3 +1,26 @@
-.logo{
-    width: 150px;
-}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Header personalizado */
+  .header-personalizado {
+    background-color: #FFD700; /* Amarillo */
+    color: #4B3621; /* Café */
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 100px;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+  }
+  
+  
