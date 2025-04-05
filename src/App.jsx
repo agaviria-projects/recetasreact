@@ -12,8 +12,12 @@ function App() {
     <>
      <Header/>
      <Menu/>
-     <Aside/>
-     <Content/>
+        <div class="container mt-5">
+          <div class="row">
+            <Aside/>
+            <Content/>
+          </div>  
+        </div>  
      <Footer/>
     </>
   )
