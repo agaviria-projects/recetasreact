@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Header personalizado */
+  .header-personalizado {
+    background-color: #FFD700; /* Amarillo */
+    color: #4B3621; /* Café */
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 100px;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .redes-sociales a {
+    margin-left: 10px;
+    color: #5D4037; /* color café */
+    font-size: 22px;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  
+  .redes-sociales a:hover {
+    transform: scale(1.2);
+  }
+  
+  .header-container {
+  position: relative;
+}
+
+.redes-superior {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 10;
+}
+
+.redes-superior .redes-sociales a {
+  margin-left: 10px;
+  color: #5D4037;
+  font-size: 20px;
+}
+
+.card-img {
+  max-width: 100%;
+  width: 400px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+  
+  
