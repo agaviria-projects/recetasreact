@@ -6,7 +6,7 @@ export default function Aside() {
   const opiniones = 14;
 
   return (
-    <div className="col-sm-4">
+    <div className="col-lg-4 col-md-5 mb-4">
       <h2 style={{ color: '#6F4E37' }}>About Me</h2>
       <h5 style={{ color: '#6F4E37' }}>Photo of me:</h5>
 
@@ -21,14 +21,14 @@ export default function Aside() {
       </div>
 
       {/* Descripción + Estrellas + Opiniones */}
-      <p className="mt-3">{descripcion}</p>
+      <p className="mt-3" style={{ whiteSpace: "nowrap" }}>{descripcion}</p>
       <div className="text-warning mb-2">
         {'★'.repeat(rating)}{'☆'.repeat(5 - rating)}
       </div>
       <small>Basado en {opiniones} opinión{opiniones > 1 ? 'es' : ''}.</small>
 
       {/* Enlaces */}
-      <h3 className="mt-4">Some Links</h3>
+      {/*<h3 className="mt-4">Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
       <ul className="nav nav-pills flex-column">
         <li className="nav-item">
@@ -44,7 +44,7 @@ export default function Aside() {
           <a className="nav-link disabled" href="#">Disabled</a>
         </li>
       </ul>
-      <hr className="d-sm-none" />
+      <hr className="d-sm-none" />*/}
     </div>
   )
 }

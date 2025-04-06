@@ -6,16 +6,16 @@ export default function Menu() {
     <div className="container-fluid">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" href="#">Active</a>
+          <a className="nav-link active" href="#">Inicio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Recetas</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Contacto</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" href="#">Disabled</a>
+          <a className="nav-link disabled" href="#">Proximamente</a>
         </li>
       </ul>
     </div>
