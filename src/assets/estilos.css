@@ -52,6 +52,13 @@ html, body {
   font-size: 20px;
 }
 
+.card-img {
+  max-width: 100%;
+  width: 400px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
 
   
   
